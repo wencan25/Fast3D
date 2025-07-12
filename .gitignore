@@ -1,0 +1,17 @@
+annotations/
+llm/
+vicuna-7b-v1.5/
+__pycache__/
+*.pyc
+*.pth
+*.pt
+*.ckpt
+*.json
+*.jsonl
+*.log
+*.jpg
+outputs
+roberta-base/
+*.whl
+assets/
+*.bundle

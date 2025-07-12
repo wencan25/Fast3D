@@ -1,0 +1,16 @@
+pandas==1.5.3
+einops==0.6.1
+plyfile==1.0.1
+trimesh==3.23.1
+peft==0.9.0
+termcolor==2.3.0
+scipy==1.12.0
+pycocoevalcap==1.2
+sentencepiece==0.2.0
+protobuf==4.25.3
+packaging==24.0
+mmengine==0.10.3
+easydict==1.13
+tensorboard==2.18.0
+wandb==0.19.1
+scikit-learn==1.6.1

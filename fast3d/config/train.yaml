@@ -1,0 +1,34 @@
+eval_only: False
+
+# data
+annotation_root: ../annotations
+attn_maps_root: ../outputs/infer_attn_maps
+
+# output
+output_dir: outputs
+
+# training
+seed: 42
+train_tags: scanrefer#scan2cap#scanqa#sqa3d#multi3dref
+val_tags: scanrefer#scan2cap#scanqa#sqa3d#multi3dref
+use_ori_attn_maps: False
+use_mentioned_oids_in_answers: True
+use_spatial_dec: True
+train_text_encoder: True
+train_batch_size: 64
+eval_batch_size: 64
+num_workers: 16
+gradient_accumulation_steps: 1
+max_epoch: 50
+warmup_epochs: 0.1
+val_interval: 1.0
+logging_steps: 1
+eval_train_set: False
+
+# optimizer
+text_lr: 0.00008
+lr: 0.0008
+weight_decay: 0.01
+min_lr_multi: 0.001
+max_grad_norm: 5.0
+
