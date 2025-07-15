@@ -210,11 +210,14 @@ Ks=(2 6 16) # from which layer of 32 layers
 
 If you find this project useful in your research, please consider cite:
 ```BibTeX
-@inproceedings{huang2025fast3d,
-  title={Fast3D: Accelerating 3D Multi-modal Large Language Models for Efficient 3D Scene Understanding},
-  author={Huang, Wencan and Liu, Daizong and Hu, Wei},
-  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
-  year={2025}
+@misc{huang2025fast3daccelerating3dmultimodal,
+      title={Fast3D: Accelerating 3D Multi-modal Large Language Models for Efficient 3D Scene Understanding}, 
+      author={Wencan Huang and Daizong Liu and Wei Hu},
+      year={2025},
+      eprint={2507.09334},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.09334}, 
 }
 ```
 
